@@ -1,160 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
-    <div class="header">
-        <div class="header-left">
-            <span class="material-icons" menu> menu</span>
+        <div class="header">
+            <div class="header-left">
+                <span class="material-icons" menu> menu</span>
                 <img src="https://i.pinimg.com/564x/7a/45/05/7a4505e32064c927ce18cd186d1f6778.jpg" width="150">
-        </div>
-        <div class="header-midle">
-            <span class="material-icons"> search</span>
-            <input class="search" type="text" placeholder="Search mail">
-            <span class="arrow-down"><span class="material-icons">keyboard_arrow_down</span>
-        </div>
-        <div class="header-right"> 
-            <span class="material-icons"> help_outline</span>
-            <span class="material-icons"> settings</span> 
-            <span class="material-icons">apps</span>
-            <img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg" alt="" width="50px">
+            </div>
+            <div class="header-midle">
+                <span class="material-icons"> search</span>
+                <button class="search1"><input class="search" type="text" placeholder="Search mail"></button>
+                <span class="arrow-down"><span class="material-icons">keyboard_arrow_down</span>
+            </div>
+            <div class="header-right">
+                <span class="material-icons"> help_outline</span>
+                <span class="material-icons"> settings</span>
+                <span class="material-icons">apps</span>
+                <img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg" alt="" width="50px">
 
-        </div>
-    </div>
-
-
-    <div class="left">
-        <div class="left1">
-        <div><span class="material-icons"> <button class="compose"><span class="material-icons">
-           add</span> compose</button></span></div>
-        <div class="icon">      
-        <span class="material-icons"> inbox</span>
-        <span>Inbox</span> </div> </div>
-        <div class="icon">
-        <span class="material-icons"> star</span>
-        <span>Starred</span> </div>
-        <div class="icon"><span class="material-icons">label_important</span> <span>Important</span></div>
-        <div class="icon" ><span class="material-icons">send</span> <span>Sent</span></div>
-        <div class="icon"><span class="material-icons">label </span> Team</div>
-        <div class="icon" ><span class="material-icons">label </span> New RFPs</div>
-        <div class="icon"><span class="material-icons">label </span>Projects</div>
-        <div class="icon"><span class="material-icons">label </span>Personal</div>
-        <div class="icon"><span class="material-icons">keyboard_arrow_down</span> More</div> <hr>
-       
-        <div class="left2">
-           <span>Meet</span> 
-            <div class="icon"><span class="material-icons"> duo </span> Start a meeting</div>
-            <div class="icon"><span class="material-icons">keyboard_alt</span> Join a meeting</div><hr>
+            </div>
         </div>
 
-        <div class="left3">
-            <span>Chat</span>
-            <div class="icon"><img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg" alt="" width="30px"> Nina Xu 
-            <span class="material-icons"> arrow_drop_down </span></div> <hr>
-          <div class="icon"><img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg" alt="" width="30px"> Anna Dow</div>
-        </div>
-        <div class="icon"><img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg" alt="" width="30px"> Jessica Holman</div>
-    </div>
-    
-    <div class="main">
-        <div class="main1">
-            <div class="main1_left">
-                <input type="checkbox">
-                <span class="material-icons"> arrow_drop_down </span>
-                <span class="material-icons"> refresh </span>
-                <span class="material-icons"> more_vert </span>
+
+        <div class="left">
+
+
+            <div class="left1">
+                <div><span class="material-icons"> <button class="compose"><span class="material-icons">
+                                add</span> compose</button></span></div>
+                <div class="icon">
+                    <span class="material-icons"> inbox</span>
+                    <span>Inbox</span> <span class="number">9</span>
+                </div>
+            </div>
+            <div class="icon">
+                <span class="material-icons"> star</span>
+                <span>Starred</span>
+            </div>
+            <div class="icon"><span class="material-icons">label_important</span> <span>Important</span></div>
+            <div class="icon"><span class="material-icons">send</span> <span>Sent</span></div>
+            <div class="icon"><span class="material-icons">label </span> Team</div>
+            <div class="icon"><span class="material-icons">label </span> New RFPs</div>
+            <div class="icon"><span class="material-icons">label </span>Projects</div>
+            <div class="icon"><span class="material-icons">label </span>Personal</div>
+            <div class="icon"><span class="material-icons">keyboard_arrow_down</span> More</div>
+            <hr>
+
+            <div class="left2">
+                <span>Meet</span>
+                <div class="icon"><span class="material-icons"> duo </span> Start a meeting</div>
+                <div class="icon"><span class="material-icons">keyboard_alt</span> Join a meeting</div>
+                <hr>
             </div>
 
-            <div class="main1_right">
-                <span>1-16 of 16</span>
-                <span class="material-icons"> chevron_left </span>
-                <span class="material-icons"> chevron_right </span>
-          
-            </div> <hr>
+            <div class="left3">
+                <span>Chat</span>
+                <div class="icon"><img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg"
+                        alt="" width="30px"> Nina Xu
+                    <span class="material-icons"> arrow_drop_down </span>
+                </div>
+                <hr>
+                <div class="icon"><img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg"
+                        alt="" width="30px"> Anna Dow</div>
+            </div>
+            <div class="icon"><img src="https://i.pinimg.com/564x/65/33/7b/65337bc63ff700188516b2c06540c8e7.jpg" alt=""
+                    width="30px"> Jessica Holman</div>
         </div>
 
-        <div class="main2">
-            <input type="checkbox">
-            <span class="text"><span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox"> 
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
+        <div class="main">
+            <div class="main1">
+                <div class="main1_left">
+                    <input type="checkbox">
+                    <span class="material-icons"> arrow_drop_down </span>
+                    <span class="material-icons"> refresh </span>
+                    <span class="material-icons"> more_vert </span>
+                </div>
 
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
+                <div class="main1_right">
+                    <span>1-16 of 16</span>
+                    <span class="material-icons"> chevron_left </span>
+                    <span class="material-icons"> chevron_right </span>
 
-             <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
+                </div>
+                <hr>
+            </div>
 
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
+            <div class="main2">
                 <input type="checkbox">
-                <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
+                <span class="text"><span class="material-icons full-star"> star</span><strong> Jessica Holman...... Hi
+                        Kristina </strong></span>
+                <hr>
+                <input type="checkbox">
+                <span class="material-icons full-star"> star</span><strong> Jessica Holman...... Hi Kristina
+                </strong></span>
+                <hr>
 
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
-            <input type="checkbox">
-            <span class="material-icons"> star</span><strong>Jessica Holman......    Hi Kristina </strong></span> <hr>
+                <input type="checkbox">
+                <span class="material-icons full-star"> star</span><strong>Jessica Holman...... Hi Kristina
+                </strong></span>
+                <hr>
+                <input type="checkbox">
+                <span class="material-icons"> star_outline</span>Jessica Holman...... Hi Kristina </span>
+                <hr>
+
+                <input type="checkbox">
+                <span class="material-icons"> star_outline</span><strong>Jessica Holman...... Hi Kristina
+                </strong></span>
+                <hr>
+                <input type="checkbox">
+                <span class="material-icons full-star"> star</span>Jessica Holman...... Hi Kristina </span>
+                <hr>
+
+                <input type="checkbox">
+                <span class="material-icons"> star_outline</span>Anna Holman...... Hi Kristina </span>
+                <hr>
+                <input type="checkbox">
+                <span class="material-icons"> star_outline</span>Jessica Holman...... Hi Kristina </span>
+                <hr>
+                <input type="checkbox">
+                <span class="material-icons"> star_outline</span>Jessica Holman...... Hi Kristina </span>
+                <hr>
+                <input type="checkbox">
+                <span class="material-icons full-star"> star</span><strong>Jessica Holman...... Hi Kristina </span>
+                    <hr>
+                    <input type="checkbox">
+                    <span class="material-icons"> star_outline</span>Jessica Holman...... Hi Kristina </span>
+                    <hr>
+                    <input type="checkbox">
+                    <span class="material-icons">star_outline </span>Jessica Holman...... Hi Kristina </span>
+                    <hr>
+                    <input type="checkbox">
+                    <span class="material-icons">star_outline </span>Jessica Holman...... Hi Kristina </span>
+                    <hr>
+                    <input type="checkbox">
+                    <span class="material-icons full-star"> star</span>Jessica Holman...... Hi Kristina </span>
+                    <hr>
+
+                    <input type="checkbox">
+                    <span class="material-icons"> star_outline</span>Jessica Holman...... Hi Kristina </span>
+                    <hr>
+                    <input type="checkbox">
+                    <span class="material-icons"> star_outline</span><strong>Jessica Holman...... Hi Kristina
+                    </strong></span>
+                    <hr>
+            </div>
+
         </div>
-         
-    </div>
-    <div class="right">
-        <div class="settings">
-        <span class="quick">Quick settings</span> </div>
-        <span class="close"><span class="material-icons"> close</span></span>
-        <div class="txt">
-        <span class="see">See all settings</span>
+        <div class="right">
+            <div class="settings">
+                <span class="quick">Quick settings</span>
+            </div>
+            <span class="close"><span class="material-icons"> close</span></span>
+            <div class="txt">
+                <span class="see">See all settings</span>
+            </div>
+            <hr>
+
+            <div class="density"><span>DENSITY
+                    <ul>
+                        <li>Default</li>
+                        <li>Comfortable</li>
+                        <li>Compact</li>
+                    </ul>
+                    <hr>
+                </span></div>
+            <div class="theme">
+                <div class="the"> <span class="the">THEME</span> <span class="view">View all</span> </div>
+                <div class="img1"><img src="https://i.pinimg.com/564x/ad/d0/7a/add07ace299057f280e2a4c1497bda59.jpg"
+                        alt="" width="80"><img
+                        src="https://i.pinimg.com/564x/ad/d0/7a/add07ace299057f280e2a4c1497bda59.jpg" alt=""
+                        width="80"><img src="https://i.pinimg.com/564x/ad/d0/7a/add07ace299057f280e2a4c1497bda59.jpg"
+                        alt="" width="80"></div>
+
+
+
+                <hr>
+                <div class="inbox">INBOX type
+                    <ul>
+                        <li>Default</li>
+                        <li>Costumize</li>
+                        <li>Important first</li>
+                        <li>Unread first</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <hr> 
-        
-        <div class="density"><span>DENSITY
-            <ul><li>Default</li>
-            <li>Comfortable</li>
-            <li>Compact</li></ul> <hr>
-        </span></div>
-        <div class="theme">
-           <div class="the"> <span ="the">THEME</span> <span class="view">View all</span> </div>
-           <div class="img1"><img src="https://i.pinimg.com/564x/ad/d0/7a/add07ace299057f280e2a4c1497bda59.jpg" alt="" width="80"><img src="https://i.pinimg.com/564x/ad/d0/7a/add07ace299057f280e2a4c1497bda59.jpg" alt="" width="80"><img src="https://i.pinimg.com/564x/ad/d0/7a/add07ace299057f280e2a4c1497bda59.jpg" alt="" width="80"></div>
-           
-   
-            
-             <hr>
-         <div class="inbox">INBOX type
-             <ul><li>Default</li>
-             <li>Costumize</li>
-             <li>Important first</li>
-             <li>Unread first</li></ul>
-         </div>
+        <div class="right-menu">
+            <div class="icon"><span class="material-icons">calendar_today </span></div>
+            <div class="icon"><span class="material-icons">batch_prediction </span></div>
+            <div class="icon"><span class="material-icons"> draw</span></div>
+            <hr>
+            <div class="icon"><span class="material-icons"> add </span></div>
         </div>
-    </div>
-    <div class="right-menu">
-        <div class="icon"><span class="material-icons">calendar_today </span></div>
-         <div class="icon"><span class="material-icons">batch_prediction </span></div>
-        <div class="icon"><span class="material-icons"> draw</span></div>   <hr>
-        <div class="icon"><span class="material-icons"> add </span></div>          
-    </div>
 </body>
+
 </html>
